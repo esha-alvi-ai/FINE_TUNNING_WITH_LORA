@@ -9,7 +9,7 @@ updating all of its original parameters.
 Instead of changing the complete pretrained weight matrix `W`, LoRA
 freezes the original weights and learns a small low-rank update:
 
-\[ W' = W + `\frac{\alpha}{r}`{=tex}BA \]
+[ W' = W + `\frac{\alpha}{r}`{=tex}BA \]
 
 Where:
 
@@ -471,16 +471,14 @@ Input → Model + Trainable Low-Rank Updates
 ------------------------------------------------------------------------
 
 ## Key Interview Definition
-
 > LoRA is a parameter-efficient fine-tuning method that freezes a
 > pretrained model and learns small low-rank matrices that represent
 > weight updates for selected layers.
-
 ------------------------------------------------------------------------
 
 ## Key Formula
 
-\[ W' = W + `\frac{\alpha}{r}`{=tex}BA \]
+[ W' = W + `\frac{\alpha}{r}`{=tex}BA \]
 
 Remember:
 
