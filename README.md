@@ -441,7 +441,6 @@ Input → Model + Trainable Low-Rank Updates
 ```
 
 ------------------------------------------------------------------------
-
 ## Common Mistakes
 
 1.  Using the wrong `target_modules`.
